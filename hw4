@@ -75,7 +75,7 @@ def make_withdraw(balance, password):
 class Mint:
     """A mint creates coins by stamping on years.
 
-    The update method sets the mint's stamp to Mint.current_year.
+    The update method sets the mint's stamp to Mint.current_year
 
     >>> mint = Mint()
     >>> mint.year
